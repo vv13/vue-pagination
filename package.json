@@ -1,0 +1,25 @@
+{
+  "name": "@vv13/vue-pagination",
+  "main": "./dist/vue-pagination.umd.min",
+  "author": "vv13 <zwhvv13@gmail.com>",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/vv13/vue-pagination"
+  },
+  "license": "MIT",
+  "version": "0.1.1",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build:umd": "vue-cli-service build --target lib --name vue-pagination ./src/components/VuePagination.vue"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@vue/cli-service": "^3.0.0-rc.12",
+    "vue": "^2.5.17",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
